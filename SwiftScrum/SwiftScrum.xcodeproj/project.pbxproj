@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C8E383C22983519500B42678 /* SwiftScrumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383C12983519500B42678 /* SwiftScrumApp.swift */; };
-		C8E383C42983519500B42678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383C32983519500B42678 /* ContentView.swift */; };
+		C8E383C42983519500B42678 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383C32983519500B42678 /* MeetingView.swift */; };
 		C8E383C62983519700B42678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E383C52983519700B42678 /* Assets.xcassets */; };
 		C8E383C92983519700B42678 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E383C82983519700B42678 /* Preview Assets.xcassets */; };
 		C8E383D32983519700B42678 /* SwiftScrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383D22983519700B42678 /* SwiftScrumTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		C8E383BE2983519500B42678 /* SwiftScrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftScrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E383C12983519500B42678 /* SwiftScrumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScrumApp.swift; sourceTree = "<group>"; };
-		C8E383C32983519500B42678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8E383C32983519500B42678 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		C8E383C52983519700B42678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8E383C82983519700B42678 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8E383CE2983519700B42678 /* SwiftScrumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftScrumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				C8E383C12983519500B42678 /* SwiftScrumApp.swift */,
-				C8E383C32983519500B42678 /* ContentView.swift */,
+				C8E383C32983519500B42678 /* MeetingView.swift */,
 				C8E383C52983519700B42678 /* Assets.xcassets */,
 				C8E383C72983519700B42678 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8E383C42983519500B42678 /* ContentView.swift in Sources */,
+				C8E383C42983519500B42678 /* MeetingView.swift in Sources */,
 				C8E383C22983519500B42678 /* SwiftScrumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
