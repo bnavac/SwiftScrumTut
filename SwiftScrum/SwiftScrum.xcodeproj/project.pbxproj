@@ -14,6 +14,10 @@
 		C8E383D32983519700B42678 /* SwiftScrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383D22983519700B42678 /* SwiftScrumTests.swift */; };
 		C8E383DD2983519700B42678 /* SwiftScrumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383DC2983519700B42678 /* SwiftScrumUITests.swift */; };
 		C8E383DF2983519700B42678 /* SwiftScrumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383DE2983519700B42678 /* SwiftScrumUITestsLaunchTests.swift */; };
+		C8E383ED2983620800B42678 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383EC2983620800B42678 /* Theme.swift */; };
+		C8E383EF2983637600B42678 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383EE2983637600B42678 /* DailyScrum.swift */; };
+		C8E383F12983654500B42678 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383F02983654500B42678 /* CardView.swift */; };
+		C8E383F32983678B00B42678 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383F22983678B00B42678 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		C8E383D82983519700B42678 /* SwiftScrumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftScrumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E383DC2983519700B42678 /* SwiftScrumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScrumUITests.swift; sourceTree = "<group>"; };
 		C8E383DE2983519700B42678 /* SwiftScrumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScrumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8E383EC2983620800B42678 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C8E383EE2983637600B42678 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		C8E383F02983654500B42678 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C8E383F22983678B00B42678 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		C8E383C02983519500B42678 /* SwiftScrum */ = {
 			isa = PBXGroup;
 			children = (
+				C8E383EB298361E000B42678 /* Models */,
 				C8E383C12983519500B42678 /* SwiftScrumApp.swift */,
 				C8E383C32983519500B42678 /* MeetingView.swift */,
 				C8E383C52983519700B42678 /* Assets.xcassets */,
@@ -125,6 +134,17 @@
 				C8E383DE2983519700B42678 /* SwiftScrumUITestsLaunchTests.swift */,
 			);
 			path = SwiftScrumUITests;
+			sourceTree = "<group>";
+		};
+		C8E383EB298361E000B42678 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8E383EC2983620800B42678 /* Theme.swift */,
+				C8E383EE2983637600B42678 /* DailyScrum.swift */,
+				C8E383F02983654500B42678 /* CardView.swift */,
+				C8E383F22983678B00B42678 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E383EF2983637600B42678 /* DailyScrum.swift in Sources */,
+				C8E383F32983678B00B42678 /* TrailingIconLabelStyle.swift in Sources */,
+				C8E383ED2983620800B42678 /* Theme.swift in Sources */,
 				C8E383C42983519500B42678 /* MeetingView.swift in Sources */,
 				C8E383C22983519500B42678 /* SwiftScrumApp.swift in Sources */,
+				C8E383F12983654500B42678 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
