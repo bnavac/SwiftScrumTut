@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C85889F7298B3BE600F13A9D /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85889F6298B3BE600F13A9D /* ScrumsView.swift */; };
 		C8E383C22983519500B42678 /* SwiftScrumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383C12983519500B42678 /* SwiftScrumApp.swift */; };
 		C8E383C42983519500B42678 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E383C32983519500B42678 /* MeetingView.swift */; };
 		C8E383C62983519700B42678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E383C52983519700B42678 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C85889F6298B3BE600F13A9D /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		C8E383BE2983519500B42678 /* SwiftScrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftScrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E383C12983519500B42678 /* SwiftScrumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScrumApp.swift; sourceTree = "<group>"; };
 		C8E383C32983519500B42678 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				C8E383EE2983637600B42678 /* DailyScrum.swift */,
 				C8E383F02983654500B42678 /* CardView.swift */,
 				C8E383F22983678B00B42678 /* TrailingIconLabelStyle.swift */,
+				C85889F6298B3BE600F13A9D /* ScrumsView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				C8E383EF2983637600B42678 /* DailyScrum.swift in Sources */,
 				C8E383F32983678B00B42678 /* TrailingIconLabelStyle.swift in Sources */,
 				C8E383ED2983620800B42678 /* Theme.swift in Sources */,
+				C85889F7298B3BE600F13A9D /* ScrumsView.swift in Sources */,
 				C8E383C42983519500B42678 /* MeetingView.swift in Sources */,
 				C8E383C22983519500B42678 /* SwiftScrumApp.swift in Sources */,
 				C8E383F12983654500B42678 /* CardView.swift in Sources */,
